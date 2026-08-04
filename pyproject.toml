@@ -1,0 +1,19 @@
+[project]
+name = "mcp-project"
+version = "0.1.0"
+description = "make local mcp serval "
+readme = "README.md"
+authors = [
+    { name = "Sarthak Deshmukh", email = "sarthakdeshmukh0770@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=3.4.5",
+]
+
+[project.scripts]
+mcp-project = "mcp_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
