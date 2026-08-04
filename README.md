@@ -42,3 +42,34 @@ uv run main.py
 ```
 
 ## 🗂️ Project Structure
+
+```
+mcp_local_server/
+├── main.py            # Entry point for the MCP server
+├── test.py             # Test cases
+├── expenses.db          # Local database (example use case)
+├── pyproject.toml        # Project metadata and dependencies
+├── uv.lock             # Locked dependency versions
+└── README.md            # Project documentation
+```
+
+## 🧪 Testing
+
+Run the test suite:
+
+```bash
+uv run pytest test.py
+```
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/sarthakdeshmukh0770-jpg/mcp_local_server/issues).
+
+## 📄 License
+
+This project is currently unlicensed. Add a license file if you plan to open source this project.
+
+## 👤 Author
+
+**Sarthak Deshmukh**
+📧 sarthakdeshmukh0770@gmail.com
